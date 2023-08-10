@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'quanticoregular';
+	src: url('fonts/webfontkit/quantico-regular-webfont.woff2') format('woff2'),
+	url('fonts/webfontkit/quantico-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'quanticobold';
+	src: url('fonts/webfontkit/quantico-bold-webfont.woff2') format('woff2'),
+	url('fonts/webfontkit/quantico-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bakbak One Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/webfontkit/bakbak-one-cufonfonts-webfont/BakbakOneRegular.woff') format('woff');
+}
+
+.navbar-logo {
+	filter: drop-shadow(2px 5px 4px rgba(0, 0, 0, 0.5));
+	border-radius: 3px;
+}
+
+.navbar-name {
+	margin-top: 0;
+	font-family: 'quanticoregular', sans-serif;
+	align-content: start;
+	color: #AEACAC;
+	font-size: 44px;
+	line-height: 45px;
+	letter-spacing: -2px;
+	left: 21%;
+	right: 79.51%;
+}
+
+.navbar-delimiter {
+	color: #AEACAC;
+	font-size: 45px;
+}
+
+.navbar-name-project {
+	font-weight: 800;
+	letter-spacing: -2px;
+}
+
+.navbar-name-unit {
+	font-weight: 400;
+	letter-spacing: -2px;
+
+}
+
+.bg-image {
+	background: url("../images/banner/20220403124317_1_cropped.png"), linear-gradient(269.23deg, #554F4F 35.86%, rgba(85, 79, 79, 0) 74.31%);
+	border: 3px solid #5C5757;
+	height: 130px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-bottom {
+	align-self: self-end;
+}
+
+.content-container {
+	background: rgba(203, 188, 188, 0.65);
+	border-radius: 15px;
+	margin-top: 35px;
+}
+
+.logo-container {
+
+}
+
+.user-settings-link {
+	margin: 1em;
+}
+
+.menu-selector-group {
+	font-family: 'Bakbak One Regular', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 34px;
+	color: #AFA9A9;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	flex-basis: max-content;
+}
+
+/*.modal {*/
+/*	position: fixed;*/
+/*	top: 50%;*/
+/*	left: 50%;*/
+/*	transform: translate(-50%, -50%);*/
+/*	padding: 8px;*/
+/*	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.56);*/
+/*	background: white;*/
+/*	z-index: 1000;*/
+/*}*/

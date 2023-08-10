@@ -1,0 +1,10 @@
+POST http://localhost:8000/api/edit-location HTTP/1.1
+Content-Type: application/json
+Cookie: key=first-value
+
+{
+    "id": 1,
+	"label": "Olomouc",
+	"description": "Olomouc is a city in Moravia, in the east of the Czech Republic. Located on the Morava River, the city is the ecclesiastical metropolis and historical capital city of Moravia. Today it is an administrative centre of the Olomouc Region and sixth largest city in the Czech Republic. The city has about 100,000 residents, and its larger urban zone has a population of about 480,000 people.",
+	"gps_coordinates": "49.09392319468286, 17.456017087165034"
+}

@@ -1,0 +1,13 @@
+POST http://localhost:8000/api/edit-device HTTP/1.1
+Content-Type: application/json
+Cookie: key=first-value
+
+{
+    "id": 10,
+	"label": "Android TV Uherský Brod",
+	"description": "TV umístěna na obchodním oddělení pro zobrazení kalendáře",
+	"ip_address": "192.168.2.35",
+    "uuid": "ef3c5fe116d18af8",
+    "location_id": 2,
+    "api_key": "qaxYuEEUBUAviu2EUyfN5RNcXvTfMSYL"
+}

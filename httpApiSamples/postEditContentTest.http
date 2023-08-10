@@ -1,0 +1,9 @@
+POST http://localhost:8000/api/edit-content HTTP/1.1
+Content-Type: application/json
+Cookie: key=first-value
+
+{
+    "id": 2,
+	"label": "Den deti",
+	"filename": "file1854.avi"
+}
